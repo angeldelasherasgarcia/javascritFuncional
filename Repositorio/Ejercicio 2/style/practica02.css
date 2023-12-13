@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+}
+.container{
+    display: inline-block;
+    border: 2px solid #090909; 
+    background-color: aliceblue;
+    width: 25%;
+    border-radius: 5px; 
+}
+.inputRadio{
+    margin-top: 10%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-color: #3498db;
+}
+.radioArea{
+    margin-top: 10%;
+    width: 50%;
+    background-color: #3498db; 
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+.radioArea:hover {
+    background-color: #2980b9;
+}
+.imgArea{
+    height: 300px;
+    margin-top: 10%;
+}

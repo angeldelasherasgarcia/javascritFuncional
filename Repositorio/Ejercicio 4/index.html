@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/calculadora.css">
+    <title>Practica 04 Calculadora</title>
+</head>
+<body>
+    <div class="container">
+        <div class="resultado">
+            <p id="acumulado"></p>
+            <p  class="pResultado" 
+                id="resultado">0</p>
+        </div>
+        
+        <div class="row_buttons">
+            <button class="boton-redondo" onclick="setValue('9',true)">9</button>
+            <button class="boton-redondo" onclick="setValue('8',true)">8</button>
+            <button class="boton-redondo" onclick="setValue('7',true)">7</button>
+            <button class="boton-redondo operacion" onclick="operacion('+')">+</button>
+        </div>
+        <div class="row_buttons">
+            <button class="boton-redondo" onclick="setValue('6',true)">6</button>
+            <button class="boton-redondo" onclick="setValue('5',true)">5</button>
+            <button class="boton-redondo" onclick="setValue('4',true)">4</button>
+            <button class="boton-redondo operacion" onclick="operacion('-')">-</button>
+        </div>
+        <div class="row_buttons">
+            <button class="boton-redondo" onclick="setValue('3',true)">3</button>
+            <button class="boton-redondo" onclick="setValue('2',true)">2</button>
+            <button class="boton-redondo" onclick="setValue('1',true)">1</button>
+            <button class="boton-redondo operacion" onclick="operacion('*')">x</button>
+        </div>
+        <div class="row_buttons">
+            <button class="boton-redondo" onclick="setValue('0',true)">0</button>
+            <button class="boton-redondo clear" onclick="limpiarDisplay()">C</button>
+            <button class="boton-redondo operacion" onclick="operacion('=')">=</button>
+            <button class="boton-redondo operacion" onclick="operacion('/')">/</button>
+        </div>
+    </div>
+    <script src="./scripts/practica04.js"></script>
+</body>
+</html>
